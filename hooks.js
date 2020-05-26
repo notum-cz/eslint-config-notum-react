@@ -42,6 +42,7 @@ module.exports = {
     ],
     "react/jsx-props-no-spreading": "off",
     "react/destructuring-assignment": ["error", "always"],
+    "import/prefer-default-export": "off",
   },
   settings: {
     "import/resolver": {
@@ -50,4 +51,12 @@ module.exports = {
       },
     },
   },
+  overrides: [
+    {
+      files: ["**/*.tsx"],
+      rules: {
+        "react/prop-types": "off",
+      },
+    },
+  ],
 };
