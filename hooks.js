@@ -15,7 +15,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint", "prettier"],
+  plugins: ["react", "@typescript-eslint", "prettier",  "spellcheck"],
   extends: [
     "plugin:react/recommended",
     "airbnb",
@@ -43,6 +43,7 @@ module.exports = {
     "react/jsx-props-no-spreading": "off",
     "react/destructuring-assignment": ["error", "always"],
     "import/prefer-default-export": "off",
+    "spellcheck/spell-checker": ["warn"]
   },
   settings: {
     "import/resolver": {
