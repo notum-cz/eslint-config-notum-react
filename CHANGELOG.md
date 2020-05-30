@@ -1,3 +1,15 @@
+## 1.2.1 (2020-05-30)
+
+
+### Features
+
+* add hooks version of linters ([84b14d0](https://github.com/notum-cz/eslint-config-notum-react/commit/84b14d08ac4a30a7b292938b07df40cd22936311))
+* add spellcheck ([ee6f3c9](https://github.com/notum-cz/eslint-config-notum-react/commit/ee6f3c99095e92c54d037d9255ee647b15fa402a))
+* disable default export and add typescript overrides ([6fc89d9](https://github.com/notum-cz/eslint-config-notum-react/commit/6fc89d915ee03b00c90e6ed61b9b55a541477a17))
+* initial commit ([f521619](https://github.com/notum-cz/eslint-config-notum-react/commit/f5216191d17b717bb9a3b2af5137670bcb8d6e3c))
+
+
+
 # 1.2.0 (2020-05-26)
 
 
