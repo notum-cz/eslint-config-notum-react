@@ -42,7 +42,11 @@ module.exports = {
     "react/jsx-props-no-spreading": "off",
     "react/destructuring-assignment": ["error", "always"],
     "import/prefer-default-export": "off",
-    "spellcheck/spell-checker": ["warn"]
+    "spellcheck/spell-checker": ["warn"],
+    "complexity": ["warn", 5],
+    "max-depth": ["warn", 4],
+    "max-nested-callbacks": ["warn", 3],
+    "max-params": ["warn", 3]
   },
   settings: {
     "import/resolver": {
