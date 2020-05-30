@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/notum-cz/eslint-config-notum-react/compare/v1.2.1...v1.2.2) (2020-05-30)
+
+
+### Features
+
+* add complexity rules ([5e3c160](https://github.com/notum-cz/eslint-config-notum-react/commit/5e3c16005567b13b6b946d14a7ac7a37cefa76f9))
+
+
+
 ## 1.2.1 (2020-05-30)
 
 
