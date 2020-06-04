@@ -46,7 +46,8 @@ module.exports = {
     "complexity": ["warn", 5],
     "max-depth": ["warn", 4],
     "max-nested-callbacks": ["warn", 3],
-    "max-params": ["warn", 3]
+    "max-params": ["warn", 3],
+    "react/jsx-fragments": ["error", "element"],
   },
   settings: {
     "import/resolver": {
