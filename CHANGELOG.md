@@ -1,3 +1,12 @@
+## [1.2.3](https://github.com/notum-cz/eslint-config-notum-react/compare/v1.2.2...v1.2.3) (2020-06-04)
+
+
+### Features
+
+* add rule for jsx fragment ([c167395](https://github.com/notum-cz/eslint-config-notum-react/commit/c167395faef7c7dbdbd2291e53b1c2e97e8c925c))
+
+
+
 ## [1.2.2](https://github.com/notum-cz/eslint-config-notum-react/compare/v1.2.1...v1.2.2) (2020-05-30)
 
 
