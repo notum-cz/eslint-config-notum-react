@@ -1,3 +1,12 @@
+## [1.2.4](https://github.com/notum-cz/eslint-config-notum-react/compare/v1.2.3...v1.2.4) (2020-06-05)
+
+
+### Bug Fixes
+
+* add missing extends for react ([fbeca51](https://github.com/notum-cz/eslint-config-notum-react/commit/fbeca5109a96415990b83653b4fc878455ddd584))
+
+
+
 ## [1.2.3](https://github.com/notum-cz/eslint-config-notum-react/compare/v1.2.2...v1.2.3) (2020-06-04)
 
 
