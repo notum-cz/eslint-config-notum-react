@@ -20,9 +20,10 @@ module.exports = {
     "plugin:react/recommended",
     "airbnb",
     "airbnb/hooks",
-    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/react",
   ],
   rules: {
     "import/extensions": [
