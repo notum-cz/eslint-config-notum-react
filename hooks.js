@@ -1,3 +1,5 @@
+const commonRules = require("./commonRules");
+
 module.exports = {
   env: {
     browser: true,
@@ -15,7 +17,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint", "prettier",  "spellcheck"],
+  plugins: ["react", "@typescript-eslint", "prettier",   "react-perf"],
   extends: [
     "plugin:react/recommended",
     "airbnb",
@@ -24,33 +26,9 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "prettier/react",
+    "plugin:react-perf/recommended"
   ],
-  rules: {
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        js: "never",
-        jsx: "never",
-        ts: "never",
-        tsx: "never",
-      },
-    ],
-    "prettier/prettier": "error",
-    "react/jsx-filename-extension": [
-      1,
-      { extensions: [".js", ".jsx", ".ts", ".tsx"] },
-    ],
-    "react/jsx-props-no-spreading": "off",
-    "react/destructuring-assignment": ["error", "always"],
-    "import/prefer-default-export": "off",
-    "spellcheck/spell-checker": ["warn"],
-    "complexity": ["warn", 5],
-    "max-depth": ["warn", 4],
-    "max-nested-callbacks": ["warn", 3],
-    "max-params": ["warn", 3],
-    "react/jsx-fragments": ["error", "element"],
-  },
+  rules: commonRules,
   settings: {
     "import/resolver": {
       node: {
