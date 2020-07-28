@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/notum-cz/eslint-config-notum-react/compare/v1.2.4...v1.3.0) (2020-07-28)
+
+
+### Features
+
+* react-perf plugin, export common rules in one file ([cc6e39f](https://github.com/notum-cz/eslint-config-notum-react/commit/cc6e39fcc27889423448c58f2df396ae19089c80))
+
+
+
 ## [1.2.4](https://github.com/notum-cz/eslint-config-notum-react/compare/v1.2.3...v1.2.4) (2020-06-05)
 
 
