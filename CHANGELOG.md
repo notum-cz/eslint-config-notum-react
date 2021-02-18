@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/notum-cz/eslint-config-notum-react/compare/v1.3.0...v1.4.0) (2021-02-18)
+
+
+### Features
+
+* update deps ([c241123](https://github.com/notum-cz/eslint-config-notum-react/commit/c24112341d3ef48b1cd5c61af8418e7a925863ac))
+
+
+
 # [1.3.0](https://github.com/notum-cz/eslint-config-notum-react/compare/v1.2.4...v1.3.0) (2020-07-28)
 
 
